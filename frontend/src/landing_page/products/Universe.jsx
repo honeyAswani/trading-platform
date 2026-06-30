@@ -1,6 +1,6 @@
 import React from "react";
 import smallcaseLogo from "../../assets/smallcaseLogo.png";
-import zerodhafundhouse from "../../assets/zerodhaFundhouse.png";
+import zerodhaFundhouse from "../../assets/zerodhaFundhouse.png";
 import sensibullLogo from "../../assets/sensibullLogo.svg";
 import goldenpiLogo from "../../assets/goldenpiLogo.png";
 import streakLogo from "../../assets/streakLogo.png";
@@ -19,7 +19,7 @@ function Universe() {
         </p>
 
         <div className="col-4 p-3 mt-5">
-          <img src={zerodhafundhouse} style={{width:"199px", height:"52px"}} />
+          <img src={zerodhaFundhouse} style={{width:"199px", height:"52px"}} />
           <p className="text-small text-muted mt-3 fs-8" style={{height:"54px",width:"255px",marginLeft:"80px"}}>Our asset management venture that is creating simple and transparent index funds to help you save for your goals. </p>
         </div>
         <div className="col-4 p-3 mt-5">
