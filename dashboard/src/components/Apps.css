@@ -1,0 +1,45 @@
+.apps-page{
+    padding:30px;
+}
+
+.app-card{
+    background:white;
+    border-radius:10px;
+    padding:30px;
+    height:100%;
+    transition:.3s;
+    cursor:pointer;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+.app-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+}
+
+.icon-box{
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    background:#eef5ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.icon-box i{
+    font-size:28px;
+    color:#387ed1;
+}
+
+.app-card h4{
+    margin-bottom:12px;
+    color:#424242;
+    font-weight:600;
+}
+
+.app-card p{
+    color:#666;
+    line-height:1.7;
+}
