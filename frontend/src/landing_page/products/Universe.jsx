@@ -1,6 +1,6 @@
 import React from "react";
 import smallcaseLogo from "../../assets/smallcaseLogo.png";
-import zerodhafundhouse from "../../assets/zerodhafundhouse.png";
+import zerodhafundhouse from "../../assets/zerodhaFundhouse.png";
 import sensibullLogo from "../../assets/sensibullLogo.svg";
 import goldenpiLogo from "../../assets/goldenpiLogo.png";
 import streakLogo from "../../assets/streakLogo.png";
