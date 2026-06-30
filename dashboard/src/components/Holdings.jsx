@@ -32,7 +32,7 @@ const Holdings = () => {
 
             if (err.response?.status === 401) {
                 alert("Please login first");
-                window.location.href = "http://localhost:5174/login";
+                window.location.href = "https://trading-platform-wmhw.vercel.app/login";
             }
           }
     

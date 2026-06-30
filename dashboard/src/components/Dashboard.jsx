@@ -26,7 +26,7 @@ if (token) {
   
 const token = localStorage.getItem("token");
   if (!token) {
-    window.location.href = "http://localhost:5174/login";
+    window.location.href = "https://trading-platform-wmhw.vercel.app/login";
   }
 }, []);
 

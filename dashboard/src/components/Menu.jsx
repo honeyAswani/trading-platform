@@ -28,7 +28,7 @@ const Menu = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("user");
 
-    window.location.href = "http://localhost:5174/login";
+    window.location.href = "https://trading-platform-wmhw.vercel.app/login";
   };
 
   const menuClass = "menu";
