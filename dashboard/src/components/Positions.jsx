@@ -13,7 +13,7 @@ const Positions = () => {
             const token = localStorage.getItem("token");
 
             const response = await axios.get(
-                "http://localhost:3002/allPositions",
+                "https://trading-platform-n6j2.onrender.com/allPositions",
                 {
                     headers: {
                         Authorization: `Bearer ${token}`,

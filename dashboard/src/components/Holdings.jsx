@@ -14,9 +14,9 @@ const Holdings = () => {
         try {
 
             const token = localStorage.getItem("token");
-            console.log("Token being sent:", token);
+            
             const response = await axios.get(
-                "http://localhost:3002/allHoldings",
+                "https://trading-platform-n6j2.onrender.com/allHoldings",
                 {
                     headers: {
                         Authorization: `Bearer ${token}`,
@@ -29,25 +29,16 @@ const Holdings = () => {
         } catch (err) {
 
             console.log(err.response?.data);
-/*
+
             if (err.response?.status === 401) {
                 alert("Please login first");
                 window.location.href = "http://localhost:5174/login";
-            }*/
-           if (err.response?.status === 401) {
-            localStorage.removeItem("token");
-        localStorage.removeItem("user");
-
-        alert("Session expired. Please login again.");
-
-        // redirect only after showing the message
-        setTimeout(() => {
-            window.location.href = "http://localhost:5174/login";
-        }, 1000);
+            }
+          }
     
-}
 
-}
+
+
 
     };
 

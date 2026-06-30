@@ -42,7 +42,7 @@ function Signup() {
 
     try {
       const response = await axios.post(
-        "http://localhost:3002/signup",
+        "https://trading-platform-n6j2.onrender.com/signup",
         {
           fullname: user.fullname,
           email: user.email,

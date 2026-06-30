@@ -20,7 +20,7 @@ function Login() {
         try{
 
             const response = await axios.post(
-                "http://localhost:3002/login",
+                "https://trading-platform-n6j2.onrender.com/login",
                 {
                     email,
                     password
