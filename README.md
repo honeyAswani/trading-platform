@@ -11,17 +11,15 @@
 
 </p>
 
-A **full-stack MERN Trading Platform** inspired by Zerodha, built for learning and portfolio purposes. The application enables users to securely manage their investments through authentication, portfolio tracking, holdings, positions, and buy/sell order execution.
+A full-stack **MERN Trading Platform** inspired by Zerodha, built for learning and portfolio purposes. The application provides secure authentication, portfolio management, holdings, positions, and stock buy/sell functionality through an interactive trading dashboard.
 
 ---
 
 # 🚀 Live Demo
 
-| Application | Link |
-|------------|------|
-| 🌐 Frontend | https://trading-platform-uoc8.vercel.app |
-| 📊 Dashboard | https://trading-platform-wmhw.vercel.app |
-| ⚙️ Backend API | https://trading-platform-n6j2.onrender.com |
+🌐 **Live Application**
+
+https://trading-platform-uoc8.vercel.app
 
 ---
 
@@ -30,44 +28,39 @@ A **full-stack MERN Trading Platform** inspired by Zerodha, built for learning a
 - 🔐 Secure User Authentication (Signup & Login)
 - 🛡 JWT-based Authentication & Authorization
 - 📊 Interactive Trading Dashboard
-- 📈 Portfolio Overview
 - 💼 Holdings Management
-- 📉 Positions Tracking
+- 📈 Positions Tracking
 - 🛒 Buy Stocks
 - 💰 Sell Stocks
 - 🔒 Protected Dashboard Routes
 - 📡 REST API Integration
-- ☁️ Cloud Deployment using Vercel & Render
+- ☁️ Cloud Deployment
 - 📱 Responsive User Interface
 
 ---
 
 # 🛠 Tech Stack
 
-## Frontend
-
+### Frontend
 - React.js
 - React Router DOM
 - Bootstrap 5
 - Axios
-- Chart.js
 
-## Backend
-
+### Backend
 - Node.js
 - Express.js
 - JWT Authentication
 - bcrypt.js
 
-## Database
-
+### Database
 - MongoDB Atlas
 - Mongoose
 
-## Deployment
-
-- Vercel
-- Render
+### Deployment
+- Frontend – Vercel
+- Dashboard – Vercel
+- Backend – Render
 
 ---
 
@@ -112,26 +105,13 @@ A **full-stack MERN Trading Platform** inspired by Zerodha, built for learning a
 # 📂 Project Structure
 
 ```text
-Trading-Platform
+trading-platform
 │
 ├── backend
-│   ├── middleware
-│   ├── model
-│   ├── schemas
-│   ├── index.js
-│   └── package.json
 │
 ├── dashboard
-│   ├── src
-│   ├── public
-│   ├── package.json
-│   └── vite.config.js
 │
 ├── frontend
-│   ├── src
-│   ├── public
-│   ├── package.json
-│   └── vite.config.js
 │
 ├── screenshots
 │   ├── home.png
@@ -141,14 +121,15 @@ Trading-Platform
 │   ├── holdings.png
 │   └── buy-order.png
 │
-└── README.md
+├── README.md
+└── LICENSE
 ```
 
 ---
 
 # ⚙️ Getting Started
 
-## Clone the repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/honeyAswani/trading-platform.git
@@ -187,7 +168,7 @@ npm install
 
 # 🔐 Environment Variables
 
-Create a `.env` file inside the **backend** folder.
+Create a `.env` file inside the **backend** directory.
 
 ```env
 MONGO_URL=your_mongodb_connection_string
@@ -228,7 +209,6 @@ npm run dev
 - 📜 Order History
 - 📊 Portfolio Analytics
 - 📧 Email Verification
-- 🔄 Password Reset
 - 🌙 Dark Mode
 
 ---
@@ -243,10 +223,10 @@ npm run dev
 
 # 🙏 Acknowledgements
 
-This project was inspired by the user experience and workflow of Zerodha. It was developed independently for educational and portfolio purposes using the MERN stack.
+This project was inspired by the user experience and workflow of Zerodha. It was independently developed using the MERN stack for educational and portfolio purposes.
 
 ---
 
 ## ⭐ Show Your Support
 
-If you found this project helpful or interesting, consider giving it a **⭐ Star** on GitHub.
+If you found this project helpful, consider giving it a ⭐ on GitHub.
