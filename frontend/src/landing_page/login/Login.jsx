@@ -36,7 +36,7 @@ function Login() {
             alert("Login Successful");
 
             
-            window.location.href=`http://localhost:5173?token=${response.data.token}`;
+            window.location.href=`ttps://trading-platform-wmhw.vercel.app?token=${response.data.token}`;
 
         }
 
