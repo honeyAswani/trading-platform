@@ -36,7 +36,7 @@ function Login() {
             alert("Login Successful");
 
             
-            window.location.href=`ttps://trading-platform-wmhw.vercel.app?token=${response.data.token}`;
+            window.location.href=`https://trading-platform-wmhw.vercel.app?token=${response.data.token}`;
 
         }
 
