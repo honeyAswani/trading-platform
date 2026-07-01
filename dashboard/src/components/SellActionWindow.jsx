@@ -18,7 +18,7 @@ const generalContext = useContext(GeneralContext);
         qty: stockQuantity,
         price: stockPrice,
         mode: "SELL",
-      }{
+      },{
     headers: {
       Authorization: `Bearer ${localStorage.getItem("token")}`,
     },
