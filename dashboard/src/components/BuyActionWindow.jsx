@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useContext  } from "react";
 import { Link } from "react-router-dom";
 
 import axios from "axios";
@@ -17,9 +17,15 @@ const generalContext = useContext(GeneralContext);
       qty: stockQuantity,
       price: stockPrice,
       mode: "BUY",
-    });
+    }
+  ,
+  {
+    headers: {
+      Authorization: `Bearer ${localStorage.getItem("token")}`,
+    },
+  });
 
-    GeneralContext.closeBuyWindow();
+    generalContext.closeBuyWindow();
   };
 
   const handleCancelClick = () => {
