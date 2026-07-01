@@ -29,7 +29,7 @@ const generalContext = useContext(GeneralContext);
   };
 
   const handleCancelClick = () => {
-    GeneralContext.closeBuyWindow();
+    generalContext.closeBuyWindow();
   };
 
   return (

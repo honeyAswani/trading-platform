@@ -31,7 +31,7 @@ const generalContext = useContext(GeneralContext);
   };
 
   const handleCancelClick = () => {
-    GeneralContext.closeSellWindow();
+    generalContext.closeSellWindow();
   };
 
   return (
@@ -63,7 +63,7 @@ const generalContext = useContext(GeneralContext);
         <span>Margin required ₹140.65</span>
 
         <div>
-          <button className="btn btn-blue" onClick={handleBuyClick}>
+          <button className="btn btn-blue" onClick={handleSellClick}>
   Sell
 </button>
 
