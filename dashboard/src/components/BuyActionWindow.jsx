@@ -10,7 +10,7 @@ import "./BuyActionWindow.css";
 const BuyActionWindow = ({ uid }) => {
   const [stockQuantity, setStockQuantity] = useState(1);
   const [stockPrice, setStockPrice] = useState(0.0);
-
+const generalContext = useContext(GeneralContext);
   const handleBuyClick = () => {
     axios.post("https://trading-platform-n6j2.onrender.com/newOrder", {
       name: uid,
