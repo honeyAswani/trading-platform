@@ -6,8 +6,8 @@ const Menu = () => {
   const [selectedMenu, setSelectedMenu] = useState(0);
   const [isProfileDropdownOpen, setIsProfileDropdownOpen] = useState(false);
 
-  const user = JSON.parse(localStorage.getItem("user"));
-
+  const storedUser = localStorage.getItem("user");
+const user = storedUser ? JSON.parse(storedUser) : null;
   const fullname = user?.fullname || "Guest";
 
   const initials = fullname
@@ -28,7 +28,7 @@ const Menu = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("user");
 
-    window.location.href = "window.location.href = "https://trading-platform-uoc8.vercel.app/login";
+    window.location.href ="https://trading-platform-uoc8.vercel.app/login";
   };
 
   const menuClass = "menu";
